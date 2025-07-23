@@ -1,8 +1,8 @@
 import React from 'react';
 import Data from './mockData.json';
-import styles from './stylesheets/searchResultsStyle.css';
+import styles from './stylesheets/searchResultsStyle.module.css';
 
-export default function SearchResults() {
+function SearchResults() {
     return (
         <div>
             {Data.map(songs => (
@@ -15,3 +15,5 @@ export default function SearchResults() {
         </div>
     )
 }
+
+export default SearchResults;
