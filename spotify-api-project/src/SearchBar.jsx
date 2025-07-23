@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Data from './mockData.json'
+import Data from './mockData.json';
+
 export default function SearchBar() {
     return (
         <div>
