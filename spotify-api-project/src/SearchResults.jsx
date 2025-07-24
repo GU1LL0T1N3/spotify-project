@@ -8,7 +8,7 @@ function SearchResults() {
             {Data.map(songs => (
                 <div key={songs['song-title']} className={styles.resultsContainer}>
                     <h1>{songs['song-title']}</h1>
-                    <h2>Artist: {songs.artist}</h2>
+                    <h2 className={styles.h2}>Artist: {songs.artist}</h2>
                     <p>Genre: {songs.genre}</p>
                 </div>
             ))}
