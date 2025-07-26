@@ -1,6 +1,6 @@
 import React from 'react';
-import Data from './mockData.json';
-import styles from './stylesheets/searchResultsStyle.module.css';
+import Data from '../mockData.json';
+import styles from '../stylesheets/searchResultsStyle.module.css';
 
 function SearchResults() {
     return (
